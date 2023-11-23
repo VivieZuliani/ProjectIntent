@@ -36,6 +36,8 @@ Untuk tampilan Layout Bebas, terima kasih.
 > Berikut merupakan hasil running dari aplikasi yang telah saya buat :
 
 
+https://github.com/VivieZuliani/ProjectIntent/assets/130271255/2edf1fa3-1ae8-49e2-8dc9-bf5c93d32598
+
 
 > Splash Screen
 1. Launcher Splash Logo
