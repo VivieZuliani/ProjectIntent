@@ -41,11 +41,16 @@ https://github.com/VivieZuliani/ProjectIntent/assets/130271255/2edf1fa3-1ae8-49e
 
 > Splash Screen
 1. Launcher Splash Logo
+
 Pertama, yaitu membuat Launcher Splash Logo atau menampilkan logo / icon saat kita pertama kali membuka aplikasi.
+
 Caranya :
+
 A. Mempersiapkan logo atau background yang ingin dijadikan Laucher Splash
+
 B. Jika filenya sudah tersedia, copy file lalu paste ke dalam `res`, kemudian `rename` (Pastikan untuk menggunakan huruf kecil semua)
-c. Jika sudah selesai maka selanjutnya adalah menuliskan script agar file Launcher Splash Logo bisa muncul ke halaman pengguna.
+
+C. Jika sudah selesai maka selanjutnya adalah menuliskan script agar file Launcher Splash Logo bisa muncul ke halaman pengguna.
 
 > Pertama, kita buat  java class nya agar SplashActivity bisa berjalan, lalu pada `SplashActivity.java` kita masukkan kode dibawah ini :
 ```
@@ -91,12 +96,17 @@ public class SplashActivity extends AppCompatActivity {
         </activity>
 ```
 
-Selesai sudah kita membuat perintah Launcher Splash  Logo, Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan semua project yang sudah dibuat pada sudah dibuat pada pertemuan sebelumnya.
+Selesai sudah kita membuat perintah Launcher Splash  Logo, 
+
+Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan semua project yang sudah dibuat pada sudah dibuat pada pertemuan sebelumnya.
 
 ## 2. Menu Utama
 > Yang kedua, disini kita akan membuat menu utamanya yang akan berjalan setelah SplashScreen Logo.
+
 Caranya yaitu :
+
 Jika awal pembuatan project kita memilih template Empty Views Activity, maka pada layout otomatis terbuat file `activity_main.xml` dan pada java akan ada `MainActivity.java`.
+
 Maka langsung saja kita buka `activity_main.xml`, dan buat code seperti berikut ini:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -311,9 +321,13 @@ public class MainActivity extends AppCompatActivity {
 Didalam `AndroidManifest.xml` kita tambahkan semua java class dari semua project kita sebelumnya. Berikut nama java class dari berbagai project yang telah saya buat:
 
 a. Project Hello World = HelloActivity.java
+
 b. Project Count = CountActivity.java
+
 c. Project Scroll Movie = SianidaActivity.java
+
 d. Project TwoActivity = TwoActivity.java dan Two2Activity.java
+
 e. Project Set Alarm = MainActivity.java (karena merupakan Implicit Intent, jadi code untuk set alarm langsung dibuat disini)
 
 ```
